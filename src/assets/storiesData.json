@@ -1,0 +1,64 @@
+[
+    {
+        "id": "1",
+        "stories": [
+            "https://images.unsplash.com/photo-1726066012685-f5ccd26b6f55?w=600&auto=format&fit=crop&q=60",
+            "https://images.unsplash.com/photo-1500622944204-b135684e99fd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D",
+            "https://images.unsplash.com/photo-1420593248178-d88870618ca0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmF0dXJhbHxlbnwwfHwwfHx8MA%3D%3D"
+        ]
+    },
+    {
+        "id": "2",
+        "stories": [
+            "https://images.unsplash.com/photo-1748015879337-ef95556c3749?w=600&auto=format&fit=crop&q=60",
+            "https://images.unsplash.com/photo-1748015879337-ef95556c3749?w=600&auto=format&fit=crop&q=60"
+        ]
+    },
+    {
+        "id": "3",
+        "stories": [
+            "https://images.unsplash.com/photo-1748156783945-c8c585c403b3?w=600&auto=format&fit=crop&q=60"
+        ]
+    },
+    {
+        "id": "4",
+        "stories": [
+            "https://images.unsplash.com/photo-1747996714434-64de72199155?w=600&auto=format&fit=crop&q=60"
+        ]
+    },
+    {
+        "id": "5",
+        "stories": [
+            "https://images.unsplash.com/photo-1748015879337-ef95556c3749?w=600&auto=format&fit=crop&q=60"
+        ]
+    },
+    {
+        "id": "6",
+        "stories": [
+            "https://images.unsplash.com/photo-1748096728390-0c0f12834975?w=600&auto=format&fit=crop&q=60"
+        ]
+    },
+    {
+        "id": "7",
+        "stories": [
+            "https://images.unsplash.com/photo-1747996714434-64de72199155?w=600&auto=format&fit=crop&q=60",
+            "https://images.unsplash.com/photo-1748096728390-0c0f12834975?w=600&auto=format&fit=crop&q=60"
+        ]
+    },
+    {
+        "id": "8",
+        "stories": [
+            "https://images.unsplash.com/photo-1748015879337-ef95556c3749?w=600&auto=format&fit=crop&q=60"
+        ]
+    },
+    {
+        "id": "9",
+        "stories": [
+            "https://images.unsplash.com/photo-1748096728390-0c0f12834975?w=600&auto=format&fit=crop&q=60"
+        ]
+    },
+    {
+        "id": "10",
+        "stories": []
+    }
+]
