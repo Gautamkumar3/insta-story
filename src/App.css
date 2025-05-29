@@ -1,0 +1,15 @@
+.homeContainer {
+  width: 480px;
+  min-width: 380px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  height: 100vh;
+  margin: auto;
+}
+
+@media (max-width: 480px) {
+  .homeContainer {
+    width: 100vw;
+  }
+}
