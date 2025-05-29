@@ -1,0 +1,26 @@
+/* ######### storylist  ############# */
+
+.storyListContainer {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow: auto;
+    margin-top: 1rem;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.imgWrapper {
+    background: conic-gradient(#f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.img {
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
