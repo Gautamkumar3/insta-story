@@ -1,4 +1,3 @@
-// import React from 'react'
 import './App.css'
 import storyData from "./assets/storiesData.json"
 import Home from './page/Home'
