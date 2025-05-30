@@ -22,6 +22,7 @@ export default function StoryList({ storyData, handleStoryClick }: StoryListProp
                         width="65px"
                         className="img"
                         onClick={() => handleStoryClick(index)}
+                        loading="lazy" 
                     />
                 </div>
             ))}
