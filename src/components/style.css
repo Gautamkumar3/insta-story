@@ -24,3 +24,27 @@
     object-fit: cover;
     cursor: pointer;
 }
+/* ###### StoryFullView #########  */
+
+.fullViewContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.fullViewImgWrapper {
+    position: relative;
+    height: 95vh;
+}
+
+.closeBtn {
+    border: none;
+    padding: 2px 8px;
+    font-size: 1.2rem;
+    background-color: transparent;
+    font-weight: 600;
+    cursor: pointer;
+    color:#fff;
+    position: absolute;
+    right: 0.4rem;
+    top: 1rem;
+}
