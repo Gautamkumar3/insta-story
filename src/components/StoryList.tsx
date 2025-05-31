@@ -12,7 +12,7 @@ type StoryListProps = {
 
 export default function StoryList({ storyData, handleStoryClick }: StoryListProps) {
     return (
-        <div className="storyListContainer">
+        <div className="storyListContainer" data-testid="story-list">
             {storyData.map((storyItem, index) => (
                 <div className="imgWrapper" key={storyItem.id}>
                     <img
@@ -23,6 +23,7 @@ export default function StoryList({ storyData, handleStoryClick }: StoryListProp
                         className="img"
                         onClick={() => handleStoryClick(index)}
                         loading="lazy" 
+                        data-testid={`story-img-${index}`}
                     />
                 </div>
             ))}

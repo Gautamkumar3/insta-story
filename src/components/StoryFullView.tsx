@@ -61,16 +61,17 @@ const StoryFullView: React.FC<StoryFullViewProps> = ({ activeStories, currentInd
 
 
     return (
-        <div className='fullViewContainer' onClick={(e) => handleImgClick(e)}>
-            {loading ? <CardSkeleton height='100%' /> : <div className='fullViewImgWrapper'>
+        <div className='fullViewContainer' onClick={(e) => handleImgClick(e)} data-testid="story-full-view">
+            {loading ? <CardSkeleton height='100%' /> : <div className='fullViewImgWrapper' data-testid="full-view-img-wrapper">
                 <img
                     src={activeStories[activeStoryIndex]}
                     alt="story"
                     width="100%"
                     height="100%"
                     loading="lazy" 
+                    data-testid="story-full-image"
                 />
-                <button className="closeBtn" onClick={(e) => handleClose(e)}>
+                <button className="closeBtn" onClick={(e) => handleClose(e)} data-testid="close-button">
                     ✕
                 </button>
                 <div className='progressBarContainer'>
